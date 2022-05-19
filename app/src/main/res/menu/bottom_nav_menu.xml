@@ -4,21 +4,25 @@
     <item
         android:id="@+id/homeFragment"
         android:icon="@drawable/ic_home"
+        android:enabled="true"
         android:title="@string/title_home" />
 
     <item
         android:id="@+id/recordsFragment"
         android:icon="@drawable/ic_records"
+        android:enabled="true"
         android:title="@string/title_records" />
 
     <item
         android:id="@+id/salonsFragment"
         android:icon="@drawable/ic_salons"
+        android:enabled="true"
         android:title="@string/title_salons" />
 
     <item
         android:id="@+id/accountsFragment"
         android:icon="@drawable/ic_account"
+        android:enabled="true"
         android:title="@string/title_account" />
 
 </menu>
