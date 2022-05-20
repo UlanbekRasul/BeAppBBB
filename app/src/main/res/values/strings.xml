@@ -7,4 +7,8 @@
     <string name="title_salons">Salons</string>
     <string name="title_account">Account</string>
     <string name="name_app">BeApp</string>
+    <string name="tittle_records">Мои записи</string>
+    <string name="salons">Салоны</string>
+    <string name="account">Профиль</string>
+    <string name="exit">Выйти</string>
 </resources>

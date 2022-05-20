@@ -7,5 +7,21 @@
     android:background="@drawable/bc_day"
     tools:context=".ui.records.RecordsFragment">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        style="@style/MyToolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/filter"
+        app:navigationIcon="@drawable/ic_arrow">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyToolbarTitle"
+            android:text="@string/tittle_records"/>
+    </androidx.appcompat.widget.Toolbar>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

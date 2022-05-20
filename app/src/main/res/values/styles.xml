@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="MyToolbarTitle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/purple</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="MyAppBar" parent="@style/Widget.Design.AppBarLayout">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <style name="MyToolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="background">@color/transparent</item>
+    </style>
 
 </resources>

@@ -16,5 +16,8 @@ class HomeFragment : BaseNavFragment<FragmentHomeBinding, BaseViewModel>() {
         return FragmentHomeBinding.inflate(inflater)
     }
 
+    override fun initView() {
+
+    }
 
 }

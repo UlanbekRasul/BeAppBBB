@@ -1,6 +1,7 @@
 package kg.geektech.beappbbb
 
 import android.view.LayoutInflater
+import android.widget.Toolbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
@@ -31,7 +32,7 @@ class MainActivity : BaseActivity<BaseViewModel, ActivityMainBinding>() {
         val navView: BottomNavigationView = binding.navView
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment_activity_main) as NavHostFragment
         val navController = navHostFragment.navController
-        val toolbar = binding.toolbar
+
         val appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.homeFragment, R.id.recordsFragment, R.id.salonsFragment, R.id.accountsFragment

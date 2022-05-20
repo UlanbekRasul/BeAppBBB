@@ -1,6 +1,7 @@
 package kg.geektech.beappbbb.ui.records
 
 import android.view.LayoutInflater
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import kg.geektech.beappbbb.base.BaseNavFragment
 import kg.geektech.beappbbb.base.BaseViewModel
@@ -15,6 +16,15 @@ class RecordsFragment : BaseNavFragment<FragmentRecordsBinding, BaseViewModel>()
     override fun inflateViewBinding(inflater: LayoutInflater): FragmentRecordsBinding {
         return FragmentRecordsBinding.inflate(inflater)
     }
+
+    override fun initView() {
+       // activity?.actionBar?.title = "zxzxc"
+
+        (activity as? AppCompatActivity)?.supportActionBar?.title = "Мои записи"
+
+
+    }
+
 
 
 }
