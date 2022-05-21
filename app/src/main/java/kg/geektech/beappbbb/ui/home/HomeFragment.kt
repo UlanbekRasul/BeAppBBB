@@ -20,4 +20,8 @@ class HomeFragment : BaseNavFragment<FragmentHomeBinding, BaseViewModel>() {
 
     }
 
+    override fun initListener() {
+
+    }
+
 }

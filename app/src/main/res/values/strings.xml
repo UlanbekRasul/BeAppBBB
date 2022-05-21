@@ -11,4 +11,7 @@
     <string name="salons">Салоны</string>
     <string name="account">Профиль</string>
     <string name="exit">Выйти</string>
+    <string name="home">Главная</string>
+    <string name="account2">Аккаунт</string>
+    <string name="about_us">О нас</string>
 </resources>

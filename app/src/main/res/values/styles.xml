@@ -9,6 +9,13 @@
         <item name="android:layout_gravity">center</item>
     </style>
 
+    <style name="TextNavMenu" parent="@android:style/TextAppearance.Medium">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/purple2</item>
+    </style>
+
     <style name="MyAppBar" parent="@style/Widget.Design.AppBarLayout">
         <item name="android:background">@color/transparent</item>
         <item name="android:elevation">8dp</item>
