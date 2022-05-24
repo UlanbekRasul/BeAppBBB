@@ -5,20 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bc_day"
-    tools:context=".ui.salons.SalonsFragment">
-
-    <Button
-        android:id="@+id/btn_service"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Услуги"
-        android:textSize="20dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginHorizontal="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+    tools:context=".ui.service.ServicesFragment">
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_services"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
         style="@style/MyToolbar"
@@ -29,8 +19,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/MyToolbarTitle"
-            android:text="@string/salons"/>
+            android:text="@string/services"/>
     </androidx.appcompat.widget.Toolbar>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_character"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_services"
+        app:layout_constraintTop_toBottomOf="@+id/tb_services"
+        android:layout_marginTop="59dp"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

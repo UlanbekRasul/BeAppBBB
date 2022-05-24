@@ -26,4 +26,9 @@
         android:name="kg.geektech.beappbbb.ui.accounts.AccountsFragment"
         android:label="fragment_accounts"
         tools:layout="@layout/fragment_accounts" />
+    <fragment
+        android:id="@+id/servicesFragment"
+        android:name="kg.geektech.beappbbb.ui.service.ServicesFragment"
+        android:label="fragment_services"
+        tools:layout="@layout/fragment_services" />
 </navigation>

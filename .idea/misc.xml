@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/BeAppBBB/app/src/main/res/layout/fragment_salons.xml" value="0.19010416666666666" />
+        <entry key="..\:/BeAppBBB/app/src/main/res/layout/fragment_services.xml" value="0.2" />
+        <entry key="..\:/BeAppBBB/app/src/main/res/layout/item_services.xml" value="0.1890625" />
         <entry key="..\:/Users/Bakai Belekov/AndroidStudioProjects/BeAppBBB/app/src/main/res/drawable-v24/ic_menu.xml" value="0.1775" />
         <entry key="..\:/Users/Bakai Belekov/AndroidStudioProjects/BeAppBBB/app/src/main/res/drawable/bc_day.xml" value="0.185" />
         <entry key="..\:/Users/Bakai Belekov/AndroidStudioProjects/BeAppBBB/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.185" />
